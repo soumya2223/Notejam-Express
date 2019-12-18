@@ -18,4 +18,4 @@ spec:
         image: soumya2223/node:latest
         imagePullPolicy: Always
         ports:
-        - containerPort: 3000
+         - containerPort: 3000
