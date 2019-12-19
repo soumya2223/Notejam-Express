@@ -13,4 +13,5 @@ Step1: Get your worker node’s external IP address. Copy down the EXTERNAL-IP v
 
 Step2:Access the notejam-app services to view its exposed port 
  $kubectl get svc -n notejam-app
-![alt text](/home/soumya/Pictures/f1.png)
+![f1](https://user-images.githubusercontent.com/54974563/71171109-fdf4e780-2282-11ea-833d-54577d5a69a7.png)
+
