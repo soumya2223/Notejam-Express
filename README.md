@@ -1,4 +1,4 @@
-####Create the App
+#Create the App
 
 Step1: Create the manifest file for your notejam-app namespace
 ```
@@ -15,7 +15,7 @@ Step3: Create the manifest file for your notejam-app deployment
 $sudo kubectl create -f deployment.yaml 
 ```
 
-####View the notejam-app
+#View the notejam-app
 Step1: Get your worker node’s external IP address. Copy down the EXTERNAL-IP value for any worker node in the cluster:
 ```
 $kubectl get nodes -o wide
