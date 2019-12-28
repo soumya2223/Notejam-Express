@@ -27,4 +27,5 @@ Step2:Access the notejam-app services to view its exposed port
 ```
 $kubectl get svc -n <service-name>
 ```
+![Screenshot from 2019-12-18 15-58-29](https://user-images.githubusercontent.com/54974563/71540861-1b5a3d80-2976-11ea-9a79-475ef3a3f313.png)
 
