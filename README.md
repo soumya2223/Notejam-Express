@@ -1,6 +1,6 @@
-******************
+
 ### Create the App
-******************
+*********
 Step1: Create the manifest file for your notejam-app namespace
 ```
 $sudo kubectl create -f <namespace.yaml>
