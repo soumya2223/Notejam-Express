@@ -7,7 +7,10 @@ Step1: Create DokerFile to Dockerised this express web app
 ~~~
 nano Dockerfile
 ~~~
-***
+Step2:Build Dockerfile using this command
+~~~
+$ sudo docker build -t <image_name:tag> <path/URL>
+~~~
 Step1: Create the manifest file for your notejam-app namespace
 ```
 $sudo kubectl create -f <namespace.yaml>
