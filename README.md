@@ -1,8 +1,8 @@
 
 ### Create the App
+***
 Firstly, we git clone the notejam/express repo "https://github.com/komarserjio/notejam/tree/master/express" in our local system.
 
-***
 Step1: Create DokerFile to Dockerised this express web app
 ~~~
 nano Dockerfile
