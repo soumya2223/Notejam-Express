@@ -18,12 +18,12 @@ $ sudo docker images
 Step4: Run this image to create docker container and use port for expose it on network 
 ```
 $ sudo docker run -it -p 5000:5000 <image_name:tag>
+```
+##### expose this app on localhost
 
-expose this app on network
+![Screenshot from 2019-12-17 18-33-03](https://user-images.githubusercontent.com/54974563/71571928-de6f8180-2b02-11ea-8fb3-32a1e921c6a3.png)
 
-
-``` 
-## Then we have to deploy this app on Kubernetes. After setting up the minikube setup, create a deployment for this flask web app on master node 
+#### Then we have to deploy this app on Kubernetes. After setting up the minikube setup, create a deployment for this flask web app on master node 
 
 Step1: Create the manifest file for your notejam-app namespace
 ```
